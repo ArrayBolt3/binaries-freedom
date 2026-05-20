@@ -1,3 +1,9 @@
+commit 3da5b2b3d3b465777456482b1afab4ec0fb58e26
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Mar 28 09:40:47 2026 +0000
+
+    bumped changelog version
+
 commit b5bfa90b2b0d73693e6a6838b77dd69026bf775b
 Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Sat Mar 28 05:30:05 2026 -0400
@@ -226,7 +232,7 @@ Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Thu Sep 2 14:42:51 2021 -0400
 
     binaries-freedom is an empty package at this time
-    
+
     https://forums.whonix.org/t/policy-for-inclusion-of-compiled-software/6635
 
 commit c3e7f3e17cc4e545653a44effaf29dd5274af1d7
@@ -282,13 +288,13 @@ Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Thu Jun 24 15:42:40 2021 -0400
 
     add ThomasV signing key
-    
+
     https://web.archive.org/web/20210507154110/https://raw.githubusercontent.com/spesmilo/electrum/master/pubkeys/ThomasV.asc
-    
+
     https://web.archive.org/web/20210624193601/https://electrum.org/
-    
+
     gpg --keyid-format long --import --import-options show-only --with-fingerprint ThomasV.asc
-    
+
     ```
     pub   rsa4096/2BD5824B7F9470E6 2011-06-15 [SC]
           Key fingerprint = 6694 D8DE 7BE8 EE56 31BE  D950 2BD5 824B 7F94 70E6
@@ -303,13 +309,13 @@ Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Thu Jun 24 15:33:51 2021 -0400
 
     add SomberNight signing key
-    
+
     https://web.archive.org/web/20210624193503/https://raw.githubusercontent.com/spesmilo/electrum/master/pubkeys/sombernight_releasekey.asc
-    
+
     https://web.archive.org/web/20210624193601/https://electrum.org/
-    
+
     gpg --keyid-format long --import --import-options show-only --with-fingerprint sombernight_releasekey.asc
-    
+
     ```
     gpg: key CA9EEEC43DF911DC: 1 signature not checked due to a missing key
     pub   rsa4096/CA9EEEC43DF911DC 2021-06-15 [SC]
